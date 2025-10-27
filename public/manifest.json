@@ -1,0 +1,55 @@
+{
+  "name": "Airport Navigator",
+  "short_name": "AirportNav",
+  "description": "Navigate airports with confidence. Track flights in real-time, find gates and terminals.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["travel", "navigation", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Track Flights",
+      "short_name": "Track",
+      "description": "Track your flights in real-time",
+      "url": "/?action=track",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Find Airport",
+      "short_name": "Find",
+      "description": "Search for an airport",
+      "url": "/?action=find",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
